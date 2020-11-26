@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NuGet.Frameworks/5.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NuGet.Frameworks/5.8.0": {
+      "sha512": "qmHdiRcRNSZS9cNMzzCyAb4veOBQnc4r/y+VKkPKpIm6cXBTYgVEoX6J7zVwTwT83xNIuRWwBrDotIUIc4nOSQ==",
+      "type": "package",
+      "path": "nuget.frameworks/5.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/NuGet.Frameworks.dll",
+        "lib/net40/NuGet.Frameworks.xml",
+        "lib/net45/NuGet.Frameworks.dll",
+        "lib/net45/NuGet.Frameworks.xml",
+        "lib/net472/NuGet.Frameworks.dll",
+        "lib/net472/NuGet.Frameworks.xml",
+        "lib/netstandard2.0/NuGet.Frameworks.dll",
+        "lib/netstandard2.0/NuGet.Frameworks.xml",
+        "nuget.frameworks.5.8.0.nupkg.sha512",
+        "nuget.frameworks.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "NuGet.Frameworks >= 5.8.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\theonetech20.THEONETECH\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Xyz\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "D:\\Xyz\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\theonetech20.THEONETECH\\.nuget\\packages\\",
+      "outputPath": "D:\\Xyz\\WebApplication1\\WebApplication1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\theonetech20.THEONETECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "NuGet.Frameworks": {
+            "target": "Package",
+            "version": "[5.8.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
