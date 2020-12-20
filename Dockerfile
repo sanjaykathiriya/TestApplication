@@ -3,7 +3,7 @@ WORKDIR /app
 
 #Copy the csproj file first to restore required packages
 
-COPY *."D:\Webapplication\WebApplication1\WebApplication1.csproj" .
+COPY "D:\Webapplication\WebApplication1\WebApplication1.csproj" 
 COPY *.config .
 
 RUN dotnet restore --disable-parallel --configfile ./nuget.config 
